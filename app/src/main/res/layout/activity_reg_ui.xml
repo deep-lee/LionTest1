@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="用户名"
+            android:text="手机号码"
             android:textSize="18sp"
             android:layout_gravity="center_vertical"/>
         <EditText
@@ -41,12 +41,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="密码"
+            android:text="密         码"
             android:textSize="18sp"
             android:layout_gravity="center_vertical"/>
         <EditText
             android:id="@+id/password_edt1"
             android:layout_width="match_parent"
+            android:inputType="textPassword"
             android:layout_height="match_parent"
             />
     </LinearLayout>
@@ -68,6 +69,7 @@
             android:layout_gravity="center_vertical"/>
         <EditText
             android:id="@+id/password_edt2"
+            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             />
